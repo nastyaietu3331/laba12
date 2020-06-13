@@ -1,0 +1,82 @@
+.inputContacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.item {
+    margin-bottom: 10px;
+    border: 2px solid #2b4d5f;
+    border-radius: 5px;
+    width: 400px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item > input {
+    margin: 10px;
+    border-color: #532c63;
+    border-radius: 5px;
+}
+
+.item > h1 {
+    color: #2b4d5f;
+    margin: 0px;
+}
+
+.numberContact > input::-webkit-outer-spin-button,
+.numberContact > input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.featuredContacts {
+    margin-bottom: 5px;
+}
+
+.sorts > div {
+    margin-bottom: 5px;
+}
+
+.sortLabel {
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #00657c;
+    color: whitesmoke;
+}
+
+.error {
+    width: 400px;
+    background-color: #ca5f5f;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.deleteImg {
+    cursor: pointer;
+    padding-left: 10px;
+    width: 25px;
+}
+
+hr {
+    border: 3px solid;
+    width: 100%;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
